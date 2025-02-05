@@ -5,6 +5,8 @@
     <DynamicsProjectType>Package</DynamicsProjectType>
 	  <ModuleName>DocumentIntelligence</ModuleName>
     <AnchorSolutionName>FSIDocumentIntelligenceAnchor</AnchorSolutionName>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\HomeSoftwarePackages\fai-waltoriaFintech\build\config\key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -38,11 +40,11 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\FSIDocumentIntelligenceAnchor\FSIDocumentIntelligenceAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
-    <ProjectReference Include="..\FSIDocumentCommonDataModel\FSIDocumentCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
-    <ProjectReference Include="..\FSIDocumentIntelligenceDataModel\FSIDocumentIntelligenceDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
-    <ProjectReference Include="..\FSIDocumentIntelligenceCore\FSIDocumentIntelligenceCore.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
-    <ProjectReference Include="..\FSIDocumentIntelligenceControls\FSIDocumentIntelligenceControls.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIDocumentIntelligenceAnchor\FSIDocumentIntelligenceAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIDocumentCommonDataModel\FSIDocumentCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIDocumentIntelligenceDataModel\FSIDocumentIntelligenceDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIDocumentIntelligenceCore\FSIDocumentIntelligenceCore.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIDocumentIntelligenceControls\FSIDocumentIntelligenceControls.csproj" Condition="'$(TF_BUILD)' == 'False'" />
   </ItemGroup>
 
   <ItemGroup>

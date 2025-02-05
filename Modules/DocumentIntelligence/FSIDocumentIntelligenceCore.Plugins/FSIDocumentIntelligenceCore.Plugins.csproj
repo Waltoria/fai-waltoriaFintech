@@ -5,5 +5,7 @@
 		<RootNamespace>Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins</RootNamespace>
 		<AssemblyName>Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins</AssemblyName>
 		<ModuleName>DocumentIntelligence</ModuleName>
+		<AssemblyOriginatorKeyFile>C:\HomeSoftwarePackages\fai-waltoriaFintech\build\config\key.snk</AssemblyOriginatorKeyFile>
+		<SignAssembly>False</SignAssembly>
 	</PropertyGroup>
 </Project>

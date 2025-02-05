@@ -3,5 +3,7 @@
     <TargetFramework>net462</TargetFramework>
     <DynamicsProjectType>Solution</DynamicsProjectType>
     <ModuleName>Loan-Onboarding</ModuleName>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\HomeSoftwarePackages\fai-waltoriaFintech\build\config\key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 </Project>

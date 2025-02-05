@@ -5,5 +5,6 @@
     	<RootNamespace>Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins</RootNamespace>
 		<AssemblyName>Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins</AssemblyName>
 		<ModuleName>Loan-Onboarding</ModuleName>
+		<AssemblyOriginatorKeyFile>C:\HomeSoftwarePackages\fai-waltoriaFintech\build\config\key.snk</AssemblyOriginatorKeyFile>
 	</PropertyGroup>
 </Project>

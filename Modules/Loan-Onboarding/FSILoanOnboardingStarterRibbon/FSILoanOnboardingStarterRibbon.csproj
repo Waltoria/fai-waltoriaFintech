@@ -4,6 +4,8 @@
     <DynamicsProjectType>Solution</DynamicsProjectType>
     <ModuleName>Loan-Onboarding</ModuleName>
     <SolutionMapFile>packageMap.xml</SolutionMapFile>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\HomeSoftwarePackages\fai-waltoriaFintech\build\config\key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\FSILoanOnboardingStarterRibbon.Plugins\FSILoanOnboardingStarterRibbon.Plugins.csproj" Condition="'$(TF_BUILD)' == 'False'" />

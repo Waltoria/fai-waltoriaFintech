@@ -5,6 +5,7 @@
     <RootNamespace>Microsoft.CloudForFSI.Infra</RootNamespace>
     <AssemblyName>Microsoft.CloudForFSI.Infra</AssemblyName>
     <ModuleName>FSICRMInfra</ModuleName>
+    <AssemblyOriginatorKeyFile>C:\HomeSoftwarePackages\fai-waltoriaFintech\build\config\key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="$(CrmSdk_CoreAssemblies_PackageVersion)" GeneratePathProperty="true" />
